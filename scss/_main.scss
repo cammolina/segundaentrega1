@@ -1,0 +1,46 @@
+main{      
+    .row1{
+        color: $letraroja;
+
+    }
+
+    .row1{
+        color: $letrawhite
+    }
+    img:hover{
+        opacity: 1;
+        border: solid 2px white;
+    }
+    
+    .btn{
+        margin: 0 auto;
+        justify-content: center;
+        display: grid;
+        background-color: red
+    }
+    
+    .form1{
+        transition: all 2s;
+        width: auto;
+        max-width: 40%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .form1:hover{
+            transform: scale(1.1, 1.1);
+    }
+    
+    .form2{
+        transition: all 2s;
+        width: auto;
+        max-width: 40%;
+        height: auto;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }    
+    .form2:hover{
+            transform: scale(1.1, 1.1);
+    }
+    
+}
