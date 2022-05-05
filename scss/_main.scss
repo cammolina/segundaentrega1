@@ -1,11 +1,15 @@
 main{      
+    .row{
+        color: $letrablanca;
+    }
+    
     .row1{
         color: $letraroja;
 
     }
 
     .row1{
-        color: $letrawhite
+        color: $letrablanca;
     }
     img:hover{
         opacity: 1;
@@ -43,4 +47,21 @@ main{
             transform: scale(1.1, 1.1);
     }
     
+}
+
+.expe{
+    background-color: aqua;
+    
+    .expe1{
+        @extend .expe;
+        border: 5px red solid;
+    }
+    .expe2{
+        @extend .expe;
+        border: 5px green solid;
+    }
+    .expe3{
+        @extend .expe;
+        border: 5px pink solid;
+    }
 }

@@ -1,24 +1,60 @@
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+.parrafo1 {
+  background-color: red;
+  padding: 1rem;
+  margin: 1rem;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
+.parrafo1 h2 {
+  color: white;
+}
+
+.parrafo1 p {
+  color: white;
+}
+
+.parrafo2 {
+  background-color: #aa5151;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.parrafo2 h2 {
+  color: white;
+}
+
+.parrafo2 p {
+  color: white;
+}
+
+.parrafo3 {
+  background-color: #bc3636;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.parrafo3 h2 {
+  color: white;
+}
+
+.parrafo3 p {
+  color: white;
 }
 
 header {
   font-family: Arial, Helvetica, sans-serif;
-}
-
-header .nav {
   color: white;
 }
 
-main .row {
+main .row{
+  color:white;
+}
+
+main .row1 {
   color: #a22121;
+}
+
+main .row1 {
+  color: white;
 }
 
 main img:hover {
@@ -64,5 +100,32 @@ main .form2 {
 main .form2:hover {
   -webkit-transform: scale(1.1, 1.1);
           transform: scale(1.1, 1.1);
+}
+
+.expe, .expe .expe1, .expe .expe2, .expe .expe3 {
+  background-color: aqua;
+}
+
+.expe .expe1 {
+  border: 5px red solid;
+}
+
+.expe .expe2 {
+  border: 5px green solid;
+}
+
+.expe .expe3 {
+  border: 5px pink solid;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 /*# sourceMappingURL=estilo.css.map */
