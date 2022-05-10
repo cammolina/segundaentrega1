@@ -1,11 +1,11 @@
 $letraroja: rgb(162, 33, 33);
 $letrablanca: white;
-$bgtexto1: red;
-$bgtexto2:rgb(170, 81, 81);
-$bgtexto3: rgb(188, 54, 54);
+$bgtexto1: rgba(186, 170, 170, 0.121);
+$bgtexto2:rgba(169, 160, 160, 0.315);
+$bgtexto3: rgba(130, 122, 122, 0.196);
 
 @mixin textos ($bgtexto){
-    background-color:$bgtexto;
+    background-color: $bgtexto;
     padding: 1rem;
     margin: 1rem;
     h2{

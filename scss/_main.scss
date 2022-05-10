@@ -48,20 +48,6 @@ main{
     }
     
 }
-
-.expe{
-    background-color: aqua;
-    
-    .expe1{
-        @extend .expe;
-        border: 5px red solid;
-    }
-    .expe2{
-        @extend .expe;
-        border: 5px green solid;
-    }
-    .expe3{
-        @extend .expe;
-        border: 5px pink solid;
-    }
+.subtexto{
+    width: 70%;
 }

@@ -1,5 +1,5 @@
 .parrafo1 {
-  background-color: red;
+  background-color: rgba(186, 170, 170, 0.121);
   padding: 1rem;
   margin: 1rem;
 }
@@ -13,7 +13,7 @@
 }
 
 .parrafo2 {
-  background-color: #aa5151;
+  background-color: rgba(169, 160, 160, 0.315);
   padding: 1rem;
   margin: 1rem;
 }
@@ -27,7 +27,7 @@
 }
 
 .parrafo3 {
-  background-color: #bc3636;
+  background-color: rgba(130, 122, 122, 0.196);
   padding: 1rem;
   margin: 1rem;
 }
@@ -45,8 +45,8 @@ header {
   color: white;
 }
 
-main .row{
-  color:white;
+main .row {
+  color: white;
 }
 
 main .row1 {
@@ -100,22 +100,6 @@ main .form2 {
 main .form2:hover {
   -webkit-transform: scale(1.1, 1.1);
           transform: scale(1.1, 1.1);
-}
-
-.expe, .expe .expe1, .expe .expe2, .expe .expe3 {
-  background-color: aqua;
-}
-
-.expe .expe1 {
-  border: 5px red solid;
-}
-
-.expe .expe2 {
-  border: 5px green solid;
-}
-
-.expe .expe3 {
-  border: 5px pink solid;
 }
 
 * {
